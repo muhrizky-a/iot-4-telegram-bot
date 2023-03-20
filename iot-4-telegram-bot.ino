@@ -18,8 +18,8 @@ UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 unsigned long bot_lasttime; // last time messages' scan has been done
 
 // Sensor Pins
-#define DHTPIN D5 //Kaki anoda dari LED terhubung ke pin D8 NodeMCU
-#define LEDPIN D6 //Pin data dari DHT terhubung ke pin D4 NodeMCU
+#define DHTPIN D5
+#define LEDPIN D6
 #define DHTTYPE DHT11 //Mengatur TYPE DHT (Karena ada 2 jenis [DHT11 & DHT22])
 int ledStatus = 0;
 
